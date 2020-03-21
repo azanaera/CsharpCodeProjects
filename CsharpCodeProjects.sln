@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBCars", "LinqFundamentals\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLCars", "LinqFundamentals\XMLCars\XMLCars.csproj", "{C5EDC79C-95AE-431F-B40E-A4EEF78E7C5C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nulls", "Nulls", "{3E17F905-1C36-4BEB-96D2-92D4CA0A7966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameConsole", "Nulls\GameConsole\GameConsole.csproj", "{194894B6-EC58-4CB1-BADE-20B0852B05C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Has-Coalesce-Conditional", "Has-Coalesce-Conditional", "{CC2FF52F-E200-46B9-B359-102909CE739B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +29,10 @@ Global
 		{C5EDC79C-95AE-431F-B40E-A4EEF78E7C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5EDC79C-95AE-431F-B40E-A4EEF78E7C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5EDC79C-95AE-431F-B40E-A4EEF78E7C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194894B6-EC58-4CB1-BADE-20B0852B05C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194894B6-EC58-4CB1-BADE-20B0852B05C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194894B6-EC58-4CB1-BADE-20B0852B05C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194894B6-EC58-4CB1-BADE-20B0852B05C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C28187F6-1BE2-4D48-A424-F471E686FDC6} = {C055DE56-4D07-496C-BDCA-90A8FE14EEC1}
 		{C5EDC79C-95AE-431F-B40E-A4EEF78E7C5C} = {C055DE56-4D07-496C-BDCA-90A8FE14EEC1}
+		{194894B6-EC58-4CB1-BADE-20B0852B05C7} = {CC2FF52F-E200-46B9-B359-102909CE739B}
+		{CC2FF52F-E200-46B9-B359-102909CE739B} = {3E17F905-1C36-4BEB-96D2-92D4CA0A7966}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65D83251-DE1E-4787-B1F7-10A375C9EB98}
