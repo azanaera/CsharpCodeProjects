@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameConsole", "Nulls\GameCo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Has-Coalesce-Conditional", "Has-Coalesce-Conditional", "{CC2FF52F-E200-46B9-B359-102909CE739B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Moq", "Moq", "{9E43F584-63E8-4677-9092-E60E396B61A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moq-XUnitTest", "Moq-XUnitTest\Moq-XUnitTest.csproj", "{541C041A-94AB-4D5F-BA55-F608FCB809EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{194894B6-EC58-4CB1-BADE-20B0852B05C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{194894B6-EC58-4CB1-BADE-20B0852B05C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{194894B6-EC58-4CB1-BADE-20B0852B05C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541C041A-94AB-4D5F-BA55-F608FCB809EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541C041A-94AB-4D5F-BA55-F608FCB809EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541C041A-94AB-4D5F-BA55-F608FCB809EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541C041A-94AB-4D5F-BA55-F608FCB809EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +50,7 @@ Global
 		{C5EDC79C-95AE-431F-B40E-A4EEF78E7C5C} = {C055DE56-4D07-496C-BDCA-90A8FE14EEC1}
 		{194894B6-EC58-4CB1-BADE-20B0852B05C7} = {CC2FF52F-E200-46B9-B359-102909CE739B}
 		{CC2FF52F-E200-46B9-B359-102909CE739B} = {3E17F905-1C36-4BEB-96D2-92D4CA0A7966}
+		{541C041A-94AB-4D5F-BA55-F608FCB809EE} = {9E43F584-63E8-4677-9092-E60E396B61A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65D83251-DE1E-4787-B1F7-10A375C9EB98}
